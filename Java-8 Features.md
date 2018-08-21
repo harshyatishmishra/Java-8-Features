@@ -96,10 +96,30 @@ public void method(int a, int b){
   functional interfaces are required.
 
 
+## **Functional Interface**
 
+"An Interface which contains Single Abstract Method(SAM)".
 
+*These are the Functional Interface already available in Java. These Interfaces contain only one method.
+ ```
+  Runnable- run()
+  Comparable - compareTo()
+  Callable - call()
+ ```
 
-
+* Inside functional interface in addition to single Abstract method (SAM) we write any number of
+  default and static methods.
+  
+  ```
+  interface interfaceEx{
+      public abstract void method1();
+      default void method2(){
+        sop("Interface");
+      }
+   }
+   ```
+* Java 8 introduced @Functional Interface annotation to specify that the interface
+  is Functional Interface.
 
 
 
