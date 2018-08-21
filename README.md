@@ -34,32 +34,40 @@ Java.
 * Lambda Expression also known as anonymous functions or closures.
 
 Example 1
+```
 public void m1() {
  sop(“hello”);
 }
-
+```
 Lambda Expression:
+```
 () -> {
  sop(“hello”);
  }
 () -> { sop(“hello”); }
 () -> sop(“hello”);
+```
 
 Example 2
+```
 public int square(int a){
    return a*a;
 }
+```
 
 Lambda Expression:
+```
 (int a)->{
     return a*a;
 }
 (int a)-> a*a;
 (a)->a*a;
 a->a*a;
+```
 //() bracket are option when there is only one argument
 
 Example 3
+```
 public void method(int a, int b){
     System.out.println(a+b);
 }
@@ -72,7 +80,7 @@ public void method(int a, int b){
 (a, b)->{
     System.out.println(a+b);
 }
-
+```
 * Without Curly braces, we cannot use the return keyword
 * Within curly braces, if we want to return some value compulsory we should use the return statement.
 * If the type of the parameter can be decided by compiler automatically based on the context then
