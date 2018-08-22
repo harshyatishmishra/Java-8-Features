@@ -130,7 +130,7 @@ Interface interfaceEx{
   - If we add more than one abstract method in ** _Function Interface_ **.
   - If we don't declare any abstract method in ** _Function Interface_ **.
 
-### ** Inheritance with Function Interface ** ###
+###  Inheritance with Function Interface  ###
 
 * If an interface extends Functional Interface and child interface doesn’t contain any abstract method then child interface is also Functional Interface.
 
