@@ -167,7 +167,7 @@ interface B extends A {
 ```
   
 * Compilation error raise :loudspeaker:
- - In the child interface we can’t define any new abstract methods otherwise child interface won’t be Functional Interface and
+  - In the child interface we can’t define any new abstract methods otherwise child interface won’t be Functional Interface and
    if we are trying to use @FunctionalInterface annotation then compiler gives an error message.
    
 ```
