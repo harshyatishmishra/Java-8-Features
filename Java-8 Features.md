@@ -127,8 +127,8 @@ Interface interfaceEx{
 }
 ```
 * Compilation error raise :loudspeaker:
-  - If we add more than one abstract method in ** _Function Interface_ **.
-  - If we don't declare any abstract method in ** _Function Interface_ **.
+  - If we add more than one abstract method in _Function Interface_.
+  - If we don't declare any abstract method in _Function Interface_.
 
 ###  Inheritance with Function Interface  ###
 
