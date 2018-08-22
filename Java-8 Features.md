@@ -120,7 +120,15 @@ public void method(int a, int b){
    ```
 * Java 8 introduced @Functional Interface annotation to specify that the interface
   is Functional Interface.
-
+```
+@FunctionalInterface
+Interface interfaceEx{
+      public void method1();
+}
+```
+* Compilation error raise
+  - If we add more than one abstract method in ** _Function Interface_ **.
+  - If we don't declare any abstract method in ** _Function Interface_ **.
 
 
 
