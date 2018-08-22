@@ -8,3 +8,6 @@ _I will continuously update below page_
 
 Book:
  [Java 8 in Action: Lambdas, Streams and functional style programming by: Alan Mycroft, Mario Fusco](https://github.com/harshyatishmishra/Java-8-Features/blob/master/Java%208%20in%20Action.pdf)
+
+
+[Effective Java 2nd edition](https://github.com/HugoMatilla/Effective-JAVA-Summary)
