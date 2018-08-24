@@ -181,6 +181,17 @@ interface B extends A {
 }
 ```
 
+| Anonymous Inner class | Lambda Expression |
+|-----------------------|-------------------|
+| It’s a class without name | It’s a method without name (anonymous function) |
+| Anonymous inner class can extend Abstract and concrete classes| lambda expression can’t extend Abstract and concrete classes |
+| Anonymous inner class can implement An interface that contains any number of Abstract methods | lambda expression can implement an Interface which contains single abstract method (Functional Interface)|
+| Inside anonymous inner class we can Declare instance variables.|Inside lambda expression we can’t Declare instance variables, whatever the variables declared are simply acts as local variables.|
+| Anonymous inner classes can be Instantiated | lambda expressions can’t be instantiated.|
+| Inside anonymous inner class “this” Always refers current anonymous Inner class object but not outer class Object.|Inside lambda expression “this” Always refers current outer class object. That is enclosing class object.|
+| Anonymous inner class is the best choice If we want to handle multiple methods.| Lambda expression is the best Choice if we want to handle interface With single abstract method (Functional Interface).|
+| In the case of anonymous inner class At the time of compilation a separate Dot class file will be generated (outerclass$1.class)| At the time of compilation no dot Class file will be generated for Lambda expression. It simply converts in to private method outer class.|
+| Memory allocated on demand | Whenever we are creating an object Reside in permanent memory of JVM (Method Area).||
 
 
 Sources:
