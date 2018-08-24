@@ -6,6 +6,7 @@ Java 8 (codename: Spider) was released on March 18, 2014.
 Features:
 - [x] Lambda Expression
 - [x] Functional Interface
+- [ ] [Default Method in Interface](https://github.com/harshyatishmishra/Java-8-Features/blob/master/Notes/Java8-Default%20Method.md)
 - [ ] Predefined Functional Interface -> Predicate, Consumer, Function, Supplier
 - [ ] Double Colon Operator :: -> Method reference and Construction reference
 - [ ] Stream
